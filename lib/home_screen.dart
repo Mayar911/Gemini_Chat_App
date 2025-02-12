@@ -21,6 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
   void initState() {
     super.initState();
     _model = GenerativeModel(
+      //add your api key
         model: "gemini-pro", apiKey: "");
     _chatSession = _model.startChat();
   }
